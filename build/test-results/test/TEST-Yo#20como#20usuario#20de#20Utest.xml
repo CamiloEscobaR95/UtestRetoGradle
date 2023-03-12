@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Yo como usuario de Utest" tests="1" skipped="0" failures="1" errors="0" timestamp="2023-03-07T16:38:49" hostname="DESKTOP-8BER15S" time="36.741">
+  <properties/>
+  <testcase name="Login de usuario" classname="Yo como usuario de Utest" time="36.741">
+    <failure message="java.lang.AssertionError: &#10;Expected: &quot;Caamilonesssc@gmial.com&quot;&#10;     but: was &quot;caamilonesssc@gmial.com&quot;" type="java.lang.AssertionError">java.lang.AssertionError: 
+Expected: &quot;Caamilonesssc@gmial.com&quot;
+     but: was &quot;caamilonesssc@gmial.com&quot;
+	at net.serenitybdd.screenplay.ErrorTally.throwSummaryExceptionFrom(ErrorTally.java:36)
+	at net.serenitybdd.screenplay.ErrorTally.reportAnyErrors(ErrorTally.java:30)
+	at net.serenitybdd.screenplay.Actor.should(Actor.java:300)
+	at com.utestreto.stepdefinitions.login.LoginDefinitions.elUsuarioHaceLogin(LoginDefinitions.java:24)
+	at ✽.el usuario hace login Caamilonesssc@gmial.com Camilo123*(src/test/resources/features/utest_reto.feature:20)
+</failure>
+  </testcase>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[mar 07, 2023 11:38:50 AM org.openqa.selenium.remote.DesiredCapabilities chrome
+INFORMACIÓN: Using `new ChromeOptions()` is preferred to `DesiredCapabilities.chrome()`
+[Test worker] INFO net.serenitybdd.core.webdriver.driverproviders.ProvideNewDriver - Instantiating driver
+[Test worker] INFO net.serenitybdd.core.webdriver.driverproviders.ProvideNewDriver - Driver capabilities: Capabilities {acceptInsecureCerts: false, browserName: chrome, chrome.switches: --start-maximized, goog:chromeOptions: {args: [--start-maximized, --enable-automation, --test-type], extensions: []}, platform: ANY, version: }
+Starting ChromeDriver 109.0.5414.74 (e7c5703604daa9cc128ccf5a5d3e993513758913-refs/branch-heads/5414@{#1172}) on port 5585
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+[1678207133.335][WARNING]: This version of ChromeDriver has not been tested with Chrome version 110.
+mar 07, 2023 11:38:53 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFORMACIÓN: Detected dialect: W3C
+[Test worker] ERROR net.thucydides.core.steps.ConsoleLoggingListener - 
+           __  _____ _____ ____ _____   _____ _    ___ _     _____ ____  
+  _       / / |_   _| ____/ ___|_   _| |  ___/ \  |_ _| |   | ____|  _ \ 
+ (_)_____| |    | | |  _| \___ \ | |   | |_ / _ \  | || |   |  _| | | | |
+  _|_____| |    | | | |___ ___) || |   |  _/ ___ \ | || |___| |___| |_| |
+ (_)     | |    |_| |_____|____/ |_|   |_|/_/   \_\___|_____|_____|____/ 
+          \_\                                                            
+
+TEST FAILED: Login de usuario
+--------------------------------------------------------------------------
+[Test worker] ERROR net.thucydides.core.steps.ConsoleLoggingListener - TEST FAILED AT STEP Then inicio sesion should be 'Caamilonesssc@gmial.com'
+[Test worker] ERROR net.thucydides.core.steps.ConsoleLoggingListener - Expected: "Caamilonesssc@gmial.com" but: was "caamilonesssc@gmial.com"
+[pool-2-thread-1] INFO net.thucydides.core.requirements.PackageRequirementsTagProvider - Loading requirements from package requirements at: net.thucydides.showcase.cucumber.junit
+]]></system-err>
+</testsuite>
